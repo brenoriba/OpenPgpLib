@@ -1,5 +1,7 @@
 # OpenPgpLib
 
+## Available on NuGet as OpenPgpLib
+
 Open PGP Lib for C# .NET based on Bouncy Castle
 [http://www.bouncycastle.org/index.html]
 
