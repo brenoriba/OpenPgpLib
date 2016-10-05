@@ -1,9 +1,6 @@
 # OpenPgpLib
 
-Open PGP Lib for C# .NET
-
-Based on Bouncy Castle
-
+Open PGP Lib for C# .NET based on Bouncy Castle
 http://www.bouncycastle.org/index.html
 
 # To encrypt a file
@@ -13,3 +10,6 @@ OpenPgp.EncryptFile ("YOUR INPUT FILE NAME", "OUTPUT FILE NAME", "YOUR PUBLIC KE
 # To decrypt a file
 
 OpenPgp.DecryptFile ("YOUR INPUT FILE NAME", "OUTPUT FILE NAME", "YOUR PRIVATE KEY FILE NAME", "PRIVATE KEY PASSPHRASE");
+
+Keys generated on PGP Key Generator
+https://pgpkeygen.com/
