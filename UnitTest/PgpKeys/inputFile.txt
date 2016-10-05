@@ -1,0 +1,3 @@
+Pretty Good Privacy (PGP) is encryption software that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. It was created by Phil Zimmermann in 1991.
+
+PGP and similar software follow the OpenPGP standard (RFC 4880) for encrypting and decrypting data.
