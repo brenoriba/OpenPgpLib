@@ -8,12 +8,12 @@ Open PGP Lib for C# .NET based on Bouncy Castle
 
 # To encrypt a file
 
-```csharp
-   OpenPgp.EncryptFile ("YOUR INPUT FILE NAME", "OUTPUT FILE NAME", "YOUR PUBLIC KEY FILE NAME", false, false);
+```c#
+   OpenPgp.EncryptFile ("YOUR INPUT FILE NAME", "OUTPUT ENCRYPTED FILE NAME", "YOUR PUBLIC KEY FILE NAME", false, false);
 ```
 
 # To decrypt a file
 
-```csharp
-OpenPgp.DecryptFile ("YOUR INPUT FILE NAME", "OUTPUT FILE NAME", "YOUR PRIVATE KEY FILE NAME", "PRIVATE KEY PASSPHRASE");
+```c#
+OpenPgp.DecryptFile ("YOUR ENCRYPTED INPUT FILE NAME", "OUTPUT DECRYPTED FILE NAME", "YOUR PRIVATE KEY FILE NAME", "PRIVATE KEY PASSPHRASE");
 ```
